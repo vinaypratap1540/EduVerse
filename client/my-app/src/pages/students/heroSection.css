@@ -1,0 +1,63 @@
+.hero{
+    margin-top: 40px;
+    height: 350px;
+    background-color: rgb(81, 65, 220);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Search input field */
+.inputSection input {
+    width: 50%;  /* Adjust width as needed */
+    max-width: 600px;  /* Prevents it from being too wide */
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    height: 40px;
+}
+
+/* Placeholder styling */
+.inputSection input::placeholder {
+    color: #888;
+}
+.btnn{
+    height: 43px;
+    color: black;
+    background-color: rgb(255, 255, 19);
+    border-left: 1px solid black;
+    outline: none;
+    width: 90px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.btnn:hover{
+    background-color: rgb(221, 221, 18);
+}
+.btnn1{
+    height: 40px;
+    color: rgb(81, 65, 220);
+    background-color: white;
+    border-left: 1px solid black;
+    outline: none;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.btnn1:hover{
+    background-color: rgb(196, 196, 196);
+}

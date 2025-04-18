@@ -1,0 +1,10 @@
+.navbar{
+    height: 80px;
+    background: linear-gradient(to right, #f5f7fa, #94aad1);
+}
+img{
+    height: 70px;
+}
+a{
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.nav {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register {
+    margin-top: 10px;
+}
+
+.card1 {
+    border: 1px solid black;  /* Fixed border */
+    width: 500px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(34, 33, 33, 0.1);
+    text-align: center;
+    margin: auto;               /* Centers horizontally */
+    position: absolute;         
+    top: 50%;                   /* Moves it down 50% of viewport height */
+    left: 50%;                  /* Moves it right 50% of viewport width */
+    transform: translate(-50%, -50%); /* Adjusts position to truly center */
+    padding: 20px;              /* Adds some spacing inside */
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+button {
+    cursor: pointer;
+    
+}
+.col-md-8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
