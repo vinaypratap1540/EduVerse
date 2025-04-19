@@ -54,7 +54,7 @@ const Navbar = () => {
                       />
                     ) : (
                       <Avatar
-                        style={{ cursor: "pointer", height: "100px", width: "100px", marginLeft: "180px", marginTop: "10px" }}
+                        style={{ cursor: "pointer", height: "35px", width: "35px", marginLeft: "180px", marginTop: "10px" }}
                         alt="Default Avatar"
                         src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png"
                       />
